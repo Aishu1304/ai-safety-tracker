@@ -1,0 +1,37 @@
+{
+  "name": "AI Safety Tracker",
+  "short_name": "SafeTracker",
+  "description": "Real-time GPS safety tracker with emergency alerts",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/assets/generated/icon-192.dim_192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/assets/generated/icon-512.dim_512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["navigation", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Live Map",
+      "url": "/map",
+      "description": "Open live GPS map"
+    },
+    {
+      "name": "Emergency",
+      "url": "/emergency",
+      "description": "Trigger emergency alarm"
+    }
+  ]
+}
